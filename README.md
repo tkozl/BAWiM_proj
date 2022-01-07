@@ -1,6 +1,6 @@
 # Rekonesans systemu SMB oraz eksploitacja z wykorzystaniem podatności typu Log Poisoning
 
-[Przygotowanie środowiska do pracy](https://github.com/tkozl/BAWiM_proj/blob/39731b511811a9cc60384c369a0cf2042b99f060/Przygotowanie%20%C5%9Brodowiska.md)
+[Przygotowanie środowiska do pracy](https://github.com/tkozl/BAWiM_proj/blob/main/Przygotowanie%20%C5%9Brodowiska.md)
 
 ## Zad. 1
 Użyj narzędzia nmap aby ustalić adres IP urządzenia do którego chcesz się włamać.
