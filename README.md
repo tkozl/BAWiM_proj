@@ -60,4 +60,4 @@ Jeśli wstrzyknąłeś już złośliwy kod, nic nie stoi na przeszkodzie aby uzy
 </details>
 
 ## Dla chętnych
-Uzyskaj uprawnienia roota.
+Uzyskaj uprawnienia roota na atakowanym serwerze.
