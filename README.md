@@ -41,7 +41,7 @@ Odnajdź plik opisany w odnalezionej w poprzednim punkcie podatności. Następni
 
 <details>
   <summary>Podpowiedź 1.</summary>
-   Odnaleziony plugin przechowywuje logi w pliku /var/www/"nazwa uzytkownika".
+   Odnaleziony plugin przechowywuje logi w pliku /var/mail/"nazwa uzytkownika".
 </details>
   
 <details>
