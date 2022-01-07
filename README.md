@@ -12,9 +12,10 @@ Przydatne narzędzia:
 
 ## Zad. 3
 Jak zapewne zauważyłeś, strona internetowa do której się dostałeś została napisana w oparciu o WordPress. Przeskanuj ją używając narzędzia wpscan. Kto wie, może znajdziesz jakąś podatność w zainstalowanym pluginie?
+> Podatności możesz szukać podpinając --api-token do wpscan lub ręcznie przeszukując np. https://www.exploit-db.com/
 
 ## Zad. 4
-Wykorzystaj podatność SMTP Log Poisoning. W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
+Wykorzystaj podatność [SMTP Log Poisoning](https://liberty-shell.com/sec/2018/05/19/poisoning/). W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
 
 Przykładowy kod:  
 > echo system($_GET[„cmd”]);
