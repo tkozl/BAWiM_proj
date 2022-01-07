@@ -2,6 +2,8 @@
 
 [Przygotowanie środowiska do pracy](https://github.com/tkozl/BAWiM_proj/blob/main/Przygotowanie%20%C5%9Brodowiska.md)
 
+### Celem poniższych zadań jest wykonanie kompletnego ataku na serwer, skutkującego uzyskaniem pełnej kontroli nad systemem.
+
 ## Zad. 1
 Sprawdź adres IP maszyny wirtualnej, zbadaj otwarte porty oraz usługi jakie na niej działają.
 
