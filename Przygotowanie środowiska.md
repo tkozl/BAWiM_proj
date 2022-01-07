@@ -35,4 +35,4 @@ Link do maszyny wirtualnej: https://download.vulnhub.com/symfonos/symfonos1.7z
 
 W tej chwili 192.168.2.2 jest adresem adaptera wirtualnego po stronie hosta a 192.168.2.1 zostaje przypisany jako serwer DHCP VirtualBox’a. w VirtualBox Host-Only Ethernet Adapter będzie używana sieć 192.168.2.0/24.
 
-# Gotowe! Zapraszamy do wykonania [laboratorium](../README.md) :)
+# Gotowe! Zapraszamy do wykonania [laboratorium](https://github.com/tkozl/BAWiM_proj#readme) :)
