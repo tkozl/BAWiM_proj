@@ -10,7 +10,7 @@ Wykorzystaj protokół SMB aby znaleźć dostępne na serwerze pliki. Przeanaliz
 Twoim celem w tym zadaniu jest znalezienie nazwy katalogu do którego możesz dostać się przez przeglądarkę.
 
 > Przydatne narzędzia:  
-> nmap, smbmap, smbclient
+> smbmap, smbclient
 
 ## Zad. 3
 Jak zapewne zauważyłeś, strona internetowa do której się dostałeś została napisana w oparciu o WordPress. Przeskanuj ją używając narzędzia wpscan. Kto wie, może znajdziesz jakąś podatność w zainstalowanym pluginie?
