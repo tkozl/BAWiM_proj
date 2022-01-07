@@ -33,7 +33,7 @@ Jak zapewne zauważyłeś, strona internetowa do której się dostałeś został
 
 <details>
   <summary>Podpowiedź 1.</summary>
-   Konieczne może się okazać wykorzystanie przełącznika -e ap oraz --plugins-detection _aggressive_.
+   Konieczne może się okazać wykorzystanie przełącznika -e ap oraz --plugins-detection aggressive.
 </details>
 
 ## Zad. 4
