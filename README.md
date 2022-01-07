@@ -8,7 +8,7 @@ Sprawdź adres IP maszyny wirtualnej, zbadaj otwarte porty oraz usługi jakie na
 
 <details>
   <summary>Podpowiedź 1.</summary>
-    Użyj narzędzia `nmap`.
+    Użyj narzędzia nmap.
 </details>
 
 <!-- Użyj narzędzia nmap aby ustalić adres IP urządzenia do którego chcesz się włamać. -->
@@ -16,11 +16,16 @@ Sprawdź adres IP maszyny wirtualnej, zbadaj otwarte porty oraz usługi jakie na
 
 
 ## Zad. 2
-Wykorzystaj protokół SMB aby znaleźć dostępne na serwerze pliki. Przeanalizuj je i wyciągnij wnioski konieczne do włamania się do systemu. Ktoś postąpił bardzo nieodpowiedzialnie zostawiając cenne, niezabezpieczone informacje na dysku. Użyj ich aby zalogować się na konto użytkownika helios.
+Wykorzystaj protokół SMB aby znaleźć dostępne na serwerze pliki. Przeanalizuj je i wyciągnij wnioski konieczne do włamania się do systemu. Ktoś postąpił bardzo nieodpowiedzialnie zostawiając cenne, niezabezpieczone informacje na dysku. Użyj ich aby zalogować się na konto jednego z użytkowników, nazwę którego odkryłeś podczas wykonywania polecenia `smbmap`.
 Twoim celem w tym zadaniu jest znalezienie nazwy katalogu do którego możesz dostać się przez przeglądarkę.
 
 > Przydatne narzędzia:  
 > smbmap, smbclient
+
+<details>
+  <summary>Podpowiedź 1.</summary>
+   Podobnie jak w przypadku FTP administratorzy często zapomninają (lub też nie chcą) ustawić hasło dla udziału anonynmous.
+</details
 
 ## Zad. 3
 Jak zapewne zauważyłeś, strona internetowa do której się dostałeś została napisana w oparciu o WordPress. Przeskanuj ją używając narzędzia wpscan. Kto wie, może znajdziesz jakąś podatność w zainstalowanym pluginie?
