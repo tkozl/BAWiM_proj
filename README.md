@@ -17,8 +17,5 @@ Jak zapewne zauważyłeś, strona internetowa do której się dostałeś został
 ## Zad. 4
 Wykorzystaj podatność [SMTP Log Poisoning](https://liberty-shell.com/sec/2018/05/19/poisoning/). W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
 
-Przykładowy kod:  
-> echo system($_GET[„cmd”]);
-
 ## Zad. 5
 Jeśli wstrzyknąłeś już złośliwy kod, nic nie stoi na przeszkodzie aby uzyskać dostęp do terminala Linux w atakowanym serwerze. Przydatne może się okazać polecenie nc.
