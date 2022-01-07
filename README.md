@@ -54,7 +54,7 @@ Odnajdź plik opisany w odnalezionej w poprzednim punkcie podatności. Następni
 Wykorzystaj podatność [SMTP Log Poisoning](https://liberty-shell.com/sec/2018/05/19/poisoning/#log-poisoning-via-mail). W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
 
 ## Zad. 5
-Jeśli wstrzyknąłeś już złośliwy kod, nic nie stoi na przeszkodzie aby uzyskać dostęp do terminala Linux w atakowanym serwerze. Przydatne może się okazać polecenie nc. Sprawdź dobrze zawartość serwera, być może znajdziesz tam flagę ;))
+Jeśli wstrzyknąłeś już złośliwy kod, nic nie stoi na przeszkodzie aby uzyskać dostęp do terminala Linux w atakowanym serwerze. Przydatne może się okazać polecenie `nc`. Sprawdź dobrze zawartość serwera, być może znajdziesz tam flagę ;))
 
 <details>
   <summary>Podpowiedź 1.</summary>
