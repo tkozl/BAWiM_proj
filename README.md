@@ -53,3 +53,8 @@ Wykorzystaj podatność [SMTP Log Poisoning](https://liberty-shell.com/sec/2018/
 
 ## Zad. 5
 Jeśli wstrzyknąłeś już złośliwy kod, nic nie stoi na przeszkodzie aby uzyskać dostęp do terminala Linux w atakowanym serwerze. Przydatne może się okazać polecenie nc.
+
+<details>
+  <summary>Podpowiedź 1.</summary>
+   To czego szukasz określa się frazą 'reverse shell'. DOKONCZYC
+</details>
