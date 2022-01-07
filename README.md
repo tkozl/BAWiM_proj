@@ -1,5 +1,7 @@
 # Rekonesans systemu SMB oraz eksploitacja z wykorzystaniem podatności typu Log Poisoning
 
+[Przygotowanie środowiska do pracy](https://github.com/tkozl/BAWiM_proj/blob/39731b511811a9cc60384c369a0cf2042b99f060/Przygotowanie%20%C5%9Brodowiska.md)
+
 ## Zad. 1
 Użyj narzędzia nmap aby ustalić adres IP urządzenia do którego chcesz się włamać.
 
@@ -7,7 +9,7 @@ Użyj narzędzia nmap aby ustalić adres IP urządzenia do którego chcesz się 
 Wykorzystaj protokół SMB aby znaleźć dostępne na serwerze pliki. Przeanalizuj je i wyciągnij wnioski konieczne do włamania się do systemu. Ktoś postąpił bardzo nieodpowiedzialnie zostawiając cenne, niezabezpieczone informacje na dysku. Użyj ich aby zalogować się na konto użytkownika helios.
 Twoim celem w tym zadaniu jest znalezienie nazwy katalogu do którego możesz dostać się przez przeglądarkę.
 
-Przydatne narzędzia:  
+> Przydatne narzędzia:  
 > nmap, smbmap, smbclient
 
 ## Zad. 3
