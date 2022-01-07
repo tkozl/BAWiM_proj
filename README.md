@@ -25,14 +25,31 @@ Twoim celem w tym zadaniu jest znalezienie nazwy katalogu do którego możesz do
 <details>
   <summary>Podpowiedź 1.</summary>
    Podobnie jak w przypadku FTP administratorzy często zapomninają (lub też nie chcą) ustawić hasło dla udziału anonynmous.
-</details
+</details>
 
 ## Zad. 3
-Jak zapewne zauważyłeś, strona internetowa do której się dostałeś została napisana w oparciu o WordPress. Przeskanuj ją używając narzędzia wpscan. Kto wie, może znajdziesz jakąś podatność w zainstalowanym pluginie?
+Jak zapewne zauważyłeś, strona internetowa do której się dostałeś została napisana w oparciu o WordPress. Przeskanuj ją używając narzędzia `wpscan`. Kto wie, może znajdziesz jakąś podatność w zainstalowanym pluginie?
 > Podatności możesz szukać podpinając --api-token do wpscan, ręcznie przeszukując np. https://www.exploit-db.com/ lub używając polecenia `searchsploit`
 
+<details>
+  <summary>Podpowiedź 1.</summary>
+   Konieczne może się okazać wykorzystanie przełącznika -e ap oraz --plugins-detection _aggressive_.
+</details>
+
 ## Zad. 4
-Wykorzystaj podatność [SMTP Log Poisoning](https://liberty-shell.com/sec/2018/05/19/poisoning/). W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
+Odnajdź plik opisany w odnalezionej w poprzednim punkcie podatności. Następnie wykorzystaj ją, aby otworzyć plik z logami.
+
+<details>
+  <summary>Podpowiedź 1.</summary>
+   Odnaleziony plugin przechowywuje logi w pliku /var/www/"nazwa uzytkownika".
+</details>
+  
+<details>
+  <summary>Podpowiedź 2.</summary>
+   Zwróć uwagę że wpisując link /h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd w odpowiedzi otrzymasz zawartość pliku passwd.
+</details>
+
+Wykorzystaj podatność [SMTP Log Poisoning](https://liberty-shell.com/sec/2018/05/19/poisoning/#log-poisoning-via-mail). W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
 
 ## Zad. 5
 Jeśli wstrzyknąłeś już złośliwy kod, nic nie stoi na przeszkodzie aby uzyskać dostęp do terminala Linux w atakowanym serwerze. Przydatne może się okazać polecenie nc.
