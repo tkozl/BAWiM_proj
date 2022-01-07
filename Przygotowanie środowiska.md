@@ -4,6 +4,11 @@ Zalecamy wykonać to laboratorium na systemie Kali Linux. Konieczna będzie rów
 
 Link do maszyny wirtualnej: https://download.vulnhub.com/symfonos/symfonos1.7z
 
+Instalacja VirtualBoxa na Kalim:
+```
+sudo apt-get install virtualbox
+```
+
 ## 1. Importowanie
 1.1. Uruchom aplikację VirtualBox
 
