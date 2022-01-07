@@ -6,6 +6,7 @@ Użyj narzędzia nmap aby ustalić adres IP urządzenia do którego chcesz się 
 ## Zad. 2
 Wykorzystaj protokół SMB aby znaleźć dostępne na serwerze pliki. Przeanalizuj je i wyciągnij wnioski konieczne do włamania się do systemu. Ktoś postąpił bardzo nieodpowiedzialnie zostawiając cenne, niezabezpieczone informacje na dysku. Użyj ich aby zalogować się na konto użytkownika helios.
 Twoim celem w tym zadaniu jest znalezienie nazwy katalogu do którego możesz dostać się przez przeglądarkę.
+
 Przydatne narzędzia:  
 > nmap, smbmap, smbclient
 
@@ -14,6 +15,7 @@ Jak zapewne zauważyłeś, strona internetowa do której się dostałeś został
 
 ## Zad. 4
 Wykorzystaj podatność SMTP Log Poisoning. W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
+
 Przykładowy kod:  
 > echo system($_GET[„cmd”]);
 
