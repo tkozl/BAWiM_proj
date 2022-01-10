@@ -2,6 +2,8 @@
 
 [Przygotowanie środowiska do pracy](https://github.com/tkozl/BAWiM_proj/blob/main/Przygotowanie%20%C5%9Brodowiska.md)
 
+[Prezentacja](https://docs.google.com/presentation/d/1yYBdpBqPUlEz22vgKnSaComwm1oKG14H-PF1-Fs8KBA/edit?usp=sharing)
+
 ### Celem poniższych zadań jest wykonanie kompletnego ataku na serwer, skutkującego uzyskaniem pełnej kontroli nad systemem.
 
 ## Zad. 1
