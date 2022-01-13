@@ -53,14 +53,14 @@ Odnajdź plik opisany w odnalezionej w poprzednim punkcie podatności. Następni
    Zwróć uwagę że wpisując link /h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd w odpowiedzi otrzymasz zawartość pliku passwd.
 </details>
 
-Wykorzystaj podatność [SMTP Log Poisoning](https://liberty-shell.com/sec/2018/05/19/poisoning/#log-poisoning-via-mail). W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
+Wykorzystaj podatność SMTP Log Poisoning. W tym celu wstrzyknij do logów odpowiedni kod PHP, który pozwoli Ci wykonać dowolny inny kod w zapytaniu GET.
 
 ## Zad. 5
 Jeśli wstrzyknąłeś już złośliwy kod, nic nie stoi na przeszkodzie aby uzyskać dostęp do terminala Linux w atakowanym serwerze. Przydatne może się okazać polecenie `nc`. Sprawdź dobrze zawartość serwera, być może znajdziesz tam flagę ;))
 
 <details>
   <summary>Podpowiedź 1.</summary>
-   To czego szukasz określa się frazą 'reverse shell'. DOKONCZYC
+   To czego szukasz określa się frazą 'reverse shell'.
 </details>
 
 ## Dla chętnych
