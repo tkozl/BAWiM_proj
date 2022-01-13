@@ -35,6 +35,7 @@ Twoim celem w tym zadaniu jest znalezienie nazwy katalogu do którego możesz do
 Jak zapewne zauważyłeś, strona internetowa do której się dostałeś została napisana w oparciu o WordPress. Przeskanuj ją używając narzędzia `wpscan`. Kto wie, może znajdziesz jakąś podatność w zainstalowanym pluginie?
 > Podatności możesz szukać podpinając --api-token do wpscan, ręcznie przeszukując np. https://www.exploit-db.com/ lub używając polecenia `searchsploit`
 
+> Uzyj pliku `/etc/hosts` i przypisz znaleziony adres IP do witryny `symfonos.local` - w innym przypadku strona może nie wyświetlać się prawidłowo
 <details>
   <summary>Podpowiedź 1.</summary>
    Konieczne może się okazać wykorzystanie przełącznika -e ap oraz --plugins-detection aggressive.
