@@ -36,10 +36,6 @@ Jak zapewne zauważyłeś, strona internetowa do której się dostałeś został
 > Podatności możesz szukać podpinając --api-token do wpscan, ręcznie przeszukując np. https://www.exploit-db.com/ lub używając polecenia `searchsploit`
 
 > Uzyj pliku `/etc/hosts` i przypisz znaleziony adres IP do witryny `symfonos.local` - w innym przypadku strona może nie wyświetlać się prawidłowo
-<details>
-  <summary>Podpowiedź 1.</summary>
-   Konieczne może się okazać wykorzystanie przełącznika -e ap oraz --plugins-detection aggressive.
-</details>
 
 ## Zad. 4
 Odnajdź plik opisany w odnalezionej w poprzednim punkcie podatności. Następnie wykorzystaj ją, aby otworzyć plik z logami.
