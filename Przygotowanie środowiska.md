@@ -10,13 +10,9 @@ sudo apt-get install virtualbox
 ```
 
 ## 1. Importowanie
-1.1. Uruchom aplikację VirtualBox
+1.1. Wybierz plik vm.ova w VirtualBoxie - powinno wystarczyć dwukrotne kliknięcie na plik
 
-1.2. Plik > Importuj urządzenie wirtualne
-
-1.3. Wybierarz plik symfonos.ovf w celu zaimportowania maszyny
-
-1.4. Nie zmieniaj ustawień, kliknij Importuj
+1.2. Nie zmieniaj ustawień domyślnych, kliknij Import
 
 ## 2. Konfiguracja maszyny
 
