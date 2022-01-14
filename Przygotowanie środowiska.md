@@ -12,6 +12,7 @@ Możliwe, że wcześniej trzeba będzie wykonać polecenie:
 ```
 sudo apt-get update
 ```
+Link do obrazu maszyny Kaliego: https://kali.download/virtual-images/kali-2021.4a/kali-linux-2021.4a-virtualbox-amd64.ova
 
 ## 1. Importowanie
 1.1. Wybierz plik vm.ova w VirtualBoxie - powinno wystarczyć dwukrotne kliknięcie na plik
