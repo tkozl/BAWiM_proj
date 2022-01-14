@@ -8,6 +8,10 @@ Instalacja VirtualBoxa na Kalim:
 ```
 sudo apt-get install virtualbox
 ```
+Możliwe, że wcześniej trzeba będzie wykonać polecenie:
+```
+sudo apt-get update
+```
 
 ## 1. Importowanie
 1.1. Wybierz plik vm.ova w VirtualBoxie - powinno wystarczyć dwukrotne kliknięcie na plik
