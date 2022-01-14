@@ -2,7 +2,7 @@
 
 Zalecamy wykonać to laboratorium na systemie Kali Linux. Konieczna będzie również maszyna wirtualna VirtualBox z serwerem. Celem laboratorium jest włamanie się do niniejszego serwera.
 
-Link do maszyny wirtualnej: https://drive.google.com/u/0/uc?id=1UynHpPUkgQfgE4Mkb529auMs4FjkCi6L&export=download
+Link do maszyny wirtualnej: https://drive.google.com/file/d/1UynHpPUkgQfgE4Mkb529auMs4FjkCi6L/view?usp=sharing
 
 Instalacja VirtualBoxa na Kalim:
 ```
